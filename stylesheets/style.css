@@ -41,6 +41,10 @@ nav {
 #menu-bar a:hover {
 	color: white;
 }
+.call-to-action {
+	height: 300px;
+	background-color: lightblue;
+}
 
 video {
 	margin-top: -100px;
