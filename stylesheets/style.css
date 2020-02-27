@@ -1,8 +1,45 @@
-nav {
-	display: flex;
-	justify-content: center;
-	width: 100vw;
+body {
+	margin: 0;
+}
 
+nav {
+	position: relative;
+	top: 20px;
+	z-index: 1;
+}
+
+#nav-bar {
+	padding-left: 35px;
+	padding-right: 35px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+
+.logo {
+	width: 150px;
+	padding-top: 5px;
+}
+
+#menu-bar {
+	display: flex;
+    justify-content: space-between;
+	border:1px solid rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-left: 35px;
+	margin-right: 35px;
+	border-radius: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#menu-bar a {
+	padding-right: 5%;
+	padding-left: 5%;
+	color: #000;
+}
+
+#menu-bar a:hover {
+	color: white;
 }
 
 video {
@@ -10,18 +47,23 @@ video {
 	width: 100vw;
 	
 }
+
 video source {
 	height: 300px;
 	width: 100vw;
 	
 }
+
 main {
 	padding: 0;
 	margin: 0;
 }
-.testing {
-	overflow:hidden;
-    display:block;
-    height: 500px;
 
+.slider {
+	overflow: hidden;
+    display: block;
+    height: 550px;
+    position: relative;
+    margin-top: -30px;
+    margin-left: 0;
 }
